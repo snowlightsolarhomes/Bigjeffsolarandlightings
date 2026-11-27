@@ -166,7 +166,7 @@ function injectUI() {
   // header cart button + hamburger
   const hi = $('.header-inner');
   if (hi) {
-    hi.insertAdjacentHTML('beforeend', `<button class="cart-btn" id="cartBtn" aria-label="Cart">🛒<span class="cart-count" hidden>0</span></button>`);
+    hi.insertAdjacentHTML('beforeend', `<a class="head-call" href="tel:08149439431" aria-label="Call us">📞</a><button class="cart-btn" id="cartBtn" aria-label="Cart">🛒<span class="cart-count" hidden>0</span></button>`);
     $('#cartBtn').addEventListener('click', openCart);
     const hb = $('#hamburger'), nav = $('#nav');
     if (hb && nav) { hb.addEventListener('click', () => { nav.classList.toggle('open'); hb.classList.toggle('open'); }); $$('a', nav).forEach(a => a.addEventListener('click', () => { nav.classList.remove('open'); hb.classList.remove('open'); })); }

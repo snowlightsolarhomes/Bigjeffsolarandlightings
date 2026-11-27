@@ -488,3 +488,38 @@ a{text-decoration:none;color:inherit}
 .bank-no button{background:var(--blue);color:#fff;border:0;border-radius:999px;padding:.35rem .9rem;font-weight:800;cursor:pointer}
 .bank-box small{color:var(--muted)}
 .cart-count[hidden],.cart-pill[hidden]{display:none!important}
+
+/* ===== COMPACT SIZE (smaller site, small logo, no top bar) ===== */
+html{font-size:14.5px}
+@media(max-width:560px){html{font-size:14px}}
+.header-inner{min-height:56px;gap:.6rem}
+.brand img{height:38px}
+.cart-btn{width:40px;height:40px;font-size:1.05rem;margin-left:.3rem}
+.head-call{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:linear-gradient(180deg,#ffd84d,var(--gold-2));color:#3a2500;text-decoration:none;font-size:1.05rem;margin-left:.5rem;box-shadow:0 6px 14px rgba(247,144,0,.35)}
+.hamburger{transform:scale(.9)}
+.section{padding:2.8rem 0}
+.hero{padding:2.2rem 0 3.4rem}
+.hero h1{font-size:clamp(1.7rem,4.6vw,3rem)}
+.hero-sub{font-size:.98rem}
+.hero-inner{gap:1.5rem}
+.sec-head{margin-bottom:1.4rem}
+.sec-head h2,.h2-left{font-size:clamp(1.35rem,3vw,2rem)}
+.trust{padding:.7rem 0}
+.trust-ic{width:38px;height:38px;font-size:1.3rem}
+.marquee{padding:.55rem 0}
+.spot{padding:1rem 0 .2rem}
+.spot-card{padding:.8rem;gap:1rem;border-radius:26px}
+.spot-title{font-size:clamp(1.4rem,4.2vw,2rem)}
+.spot-price{font-size:clamp(1.5rem,5vw,2.2rem)}
+.cat-tile{min-height:140px;padding:.7rem .4rem .8rem}
+.cta-gold{padding:2rem 0}
+.why-card,.step{padding:1.1rem 1rem}
+.visit-map{aspect-ratio:16/10}
+
+/* hero: no big logo, text-first like the reference */
+.hero-visual{display:none}
+.hero-inner{grid-template-columns:1fr!important;text-align:left!important}
+.hero-copy{max-width:640px}
+.hero-cta,.hero-stats{justify-content:flex-start!important}
+.hero{padding:1.8rem 0 3rem}
+.hero{padding-bottom:4.2rem!important}
