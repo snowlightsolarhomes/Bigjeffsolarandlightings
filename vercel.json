@@ -1,0 +1,10 @@
+{
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": "echo skip",
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/category/:slug", "destination": "/category.html" }
+  ]
+}

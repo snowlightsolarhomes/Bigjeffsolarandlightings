@@ -45,6 +45,19 @@ function catIcon(c) {
   return CAT_ICONS[String(c).toLowerCase().trim()] || '☀️';
 }
 
+function catSlug(s) { return String(s).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, ''); }
+function catPhoto(c) {
+  const set = state.catImages || {};
+  if (set[catSlug(c)]) return set[catSlug(c)];
+  const list = state.all || state.products || [];
+  const p = list.find(x => (x.category || '').toLowerCase() === String(c).toLowerCase() && x.images && x.images[0]);
+  return p ? p.images[0] : '';
+}
+function catVisual(c) {
+  const ph = catPhoto(c);
+  return ph ? `<div class="cat-photo"><img src="${ph}" alt="${escapeHtml(c)}" loading="lazy"></div>` : `<div class="cat-ic">${catIcon(c)}</div>`;
+}
+
 /* ---------- render: categories ---------- */
 function renderCategories() {
   const grid = document.getElementById('catGrid');
@@ -52,14 +65,13 @@ function renderCategories() {
   state.products.forEach(p => { counts[p.category] = (counts[p.category] || 0) + 1; });
   grid.innerHTML = state.categories.map(c => `
     <div class="cat-card" data-cat="${escapeHtml(c)}">
-      <div class="cat-ic">${catIcon(c)}</div>
+      ${catVisual(c)}
       <h3>${escapeHtml(c)}</h3>
       <small>${counts[c] || 0} product${counts[c] === 1 ? '' : 's'}</small>
     </div>`).join('');
   grid.querySelectorAll('.cat-card').forEach(el => {
     el.addEventListener('click', () => {
-      setFilter(el.dataset.cat);
-      document.getElementById('shop').scrollIntoView({ behavior: 'smooth' });
+      location.href = '/category/' + String(el.dataset.cat).toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
     });
   });
 }
@@ -287,6 +299,8 @@ async function boot() {
     ]);
     state.categories = cats;
     state.products = prods;
+    state.all = prods;
+    state.catImages = await fetch('/category-images.json').then(r => r.json()).catch(() => ({}));
   } catch (e) {
     console.error('Failed to load shop data', e);
   }
