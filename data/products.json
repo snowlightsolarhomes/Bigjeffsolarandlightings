@@ -1,0 +1,383 @@
+[
+  {
+    "id": "seed1l01m",
+    "name": "120W All-in-One Solar Street Light",
+    "category": "Solar Street Lights",
+    "price": "185,000",
+    "description": "Integrated solar street light with built-in panel, motion sensor and bright LED. Automatic dusk-to-dawn operation, IP65 weatherproof, easy pole or wall mount. Perfect for streets, estates, compounds and farms.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/seed-1795738161832-48gca.png"
+    ],
+    "videos": [
+      "/uploads/videos/seed-1795738161835-kel0k.mp4"
+    ],
+    "createdAt": 1795738161832
+  },
+  {
+    "id": "seed2e8e8",
+    "name": "200W Solar Floodlight with Panel",
+    "category": "Solar Floodlights",
+    "price": "95,000",
+    "description": "High-brightness LED floodlight with separate solar panel and remote control. Ideal for gates, warehouses, shops and construction sites. Long-life battery charges fully in strong sunlight.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/seed-1795738161836-sy3ti.png"
+    ],
+    "videos": [
+      "/uploads/videos/seed-1795738161839-fs9it.mp4"
+    ],
+    "createdAt": 1795738160832
+  },
+  {
+    "id": "seed3geww",
+    "name": "Solar Ceiling Fan — Silent & Cool",
+    "category": "Solar Fans",
+    "price": "75,000",
+    "description": "Energy-saving ceiling fan that runs directly on solar power. Whisper-quiet motor, strong airflow for bedrooms and shops, works with our solar home systems. Say goodbye to NEPA bills!",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/seed-1795738161841-li4ma.png"
+    ],
+    "videos": [
+      "/uploads/videos/seed-1795738161844-a53se.mp4"
+    ],
+    "createdAt": 1795738159832
+  },
+  {
+    "id": "seed48bgu",
+    "name": "Solar Home System Starter Kit",
+    "category": "Solar Home Systems",
+    "price": "450,000",
+    "description": "Complete starter kit: solar panel, control box with outlets, LED bulbs and cables. Powers lights, fans, TV and phones for hours. Easy to set up — direct importer price.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/seed-1795738161845-h5wvt.png"
+    ],
+    "videos": [
+      "/uploads/videos/seed-1795738161849-3re56.mp4"
+    ],
+    "createdAt": 1795738158832
+  },
+  {
+    "id": "seed5lrzv",
+    "name": "250W Monocrystalline Solar Panel",
+    "category": "Solar Panels",
+    "price": "85,000",
+    "description": "High-efficiency monocrystalline panel with tough aluminium frame and tempered glass. Suitable for homes, shops and street light projects. Bulk quantities available at importer prices.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/seed-1795738161850-ha96d.png"
+    ],
+    "videos": [
+      "/uploads/videos/seed-1795738161853-bl1zy.mp4"
+    ],
+    "createdAt": 1795738157832
+  },
+  {
+    "id": "seed69jbh",
+    "name": "12V 100Ah Tubular Solar Battery",
+    "category": "Batteries & Inverters",
+    "price": "160,000",
+    "description": "Deep-cycle tubular battery built for solar systems — long cycle life, fast charging and stable power for inverters, street lights and home kits. Warranty included.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/seed-1795738161854-bgg6x.png"
+    ],
+    "videos": [
+      "/uploads/videos/seed-1795738161856-1s5k7.mp4"
+    ],
+    "createdAt": 1795738156832
+  },
+  {
+    "id": "seed708xu",
+    "name": "Solar LED Bulb Set (3-in-1)",
+    "category": "LED Bulbs & Lamps",
+    "price": "28,500",
+    "description": "Set of 3 rechargeable LED bulbs with hanging hooks and charging cables. Bright, long-lasting emergency lighting for homes and shops — charges from solar or phone charger.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/seed-1795738161856-gimvh.png"
+    ],
+    "videos": [
+      "/uploads/videos/seed-1795738161859-po6i1.mp4"
+    ],
+    "createdAt": 1795738155832
+  },
+  {
+    "id": "seed8hldx",
+    "name": "Solar PTZ Security Camera",
+    "category": "CCTV Security",
+    "price": "145,000",
+    "description": "Wireless solar-powered PTZ camera with night vision, phone alerts and no wiring needed. Watch your shop, gate or farm from anywhere — continuous solar charging.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/seed-1795738161859-pvhov.png"
+    ],
+    "videos": [
+      "/uploads/videos/seed-1795738161861-m6bz7.mp4"
+    ],
+    "createdAt": 1795738154832
+  },
+  {
+    "id": "p-big-jeff-8000w-street-li",
+    "name": "Big Jeff 8000W Solar Street Light",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Big Jeff high-power solar street light with multi-panel LED array, remote control, time switch, intelligent light control and human-body induction. IP67 weatherproof with 5-year warranty. Ideal for streets, estates, markets and large compounds.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/big-jeff-8000w-street-light.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795800000000
+  },
+  {
+    "id": "p-allinone-led-street-ligh",
+    "name": "All-in-One Solar Street Light (12-LED Module)",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Integrated all-in-one solar street light with 12 high-power LED modules and built-in solar panel. Supplied with pole mounting tube, bracket, screws and manual. Easy to install on poles or walls.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/allinone-led-street-light.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799999000
+  },
+  {
+    "id": "p-street-light-with-ptz-ca",
+    "name": "Solar Street Light with Built-in PTZ Camera",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Solar street light combined with a rotating PTZ security camera and extra side cameras. Includes remote control, motion sensor, mounting pole and fittings. Lights up and secures your street or compound in one unit.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/street-light-with-ptz-camera.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799998000
+  },
+  {
+    "id": "p-sms-150w-solar-road-ligh",
+    "name": "SMS 150W Solar Road Light with Remote",
+    "category": "Solar Floodlights",
+    "price": "",
+    "description": "SMS Sunmate Solar 150W floodlight-style road light with separate solar panel and remote control. Great for home gardens, gates, shops and compounds.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/sms-150w-solar-road-light.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799997000
+  },
+  {
+    "id": "p-sms-200w-solar-square-li",
+    "name": "SMS 200W Solar Square Light (Double Panel)",
+    "category": "Solar Floodlights",
+    "price": "",
+    "description": "SMS Sunmate Solar 200W square light supplied with two solar panels and a remote control for faster charging and longer lighting hours. Perfect for large yards, car parks and shops.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/sms-200w-solar-square-light.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799996000
+  },
+  {
+    "id": "p-viewconnect-t34-12mp",
+    "name": "ViewConnect T34 Triple-Lens Solar PTZ Camera (12MP, 4G)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "Intelligent solar PTZ camera with three lenses, 3-PTZ auto-rotate, True Color View and 12MP Ultra HD. 4G LTE, built-in battery, auto tracking, two-way audio and IP66 weatherproofing. No wiring needed.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/viewconnect-t34-12mp.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799995000
+  },
+  {
+    "id": "p-viewconnect-4mp-solar-pt",
+    "name": "ViewConnect 4MP Solar PTZ Camera (4G LTE)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "HD intelligent solar energy alert PTZ camera, 4MP Ultra HD, 4G LTE with Full-Color Vu. No extra power or cabling, 24-hour monitoring and auto tracking. SIM does not require NIN registration; recharge through the Ubox app.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/viewconnect-4mp-solar-ptz.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799994000
+  },
+  {
+    "id": "p-viewconnect-a30-6mp",
+    "name": "ViewConnect A30 Solar PTZ Camera (6MP, 4G LTE)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "A30 HD intelligent solar energy alert PTZ camera with 6MP Ultra HD and 4G LTE. Works with no network and no plug-in. SIM does not require NIN registration; recharge only on the Ubox app.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/viewconnect-a30-6mp.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799993000
+  },
+  {
+    "id": "p-viewconnect-8mp-dual-4g5",
+    "name": "ViewConnect Dual-Lens Solar PTZ Camera (8MP, 4G/5G, 20X Zoom)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "HD dual-lens solar PTZ camera with 8MP Ultra HD, 4G/5G LTE and 20X optical zoom. Full-Color Vu night view, wireless connection, easy installation and 365-day / 24-hour monitoring without extra power.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/viewconnect-8mp-dual-4g5g.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799992000
+  },
+  {
+    "id": "p-viewconnect-8mp-dual-4g",
+    "name": "ViewConnect Dual-Lens Solar PTZ Camera (8MP, 4G LTE)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "HD dual-lens solar PTZ camera, 8MP Ultra HD with 4G LTE. Dual PIR, dual cameras, dual view and dual linkage. SIM does not require NIN registration; recharge via the Ubox app.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/viewconnect-8mp-dual-4g.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799991000
+  },
+  {
+    "id": "p-zeevision-t33-9mp",
+    "name": "ZeeVision T33 Triple-Lens Solar PTZ Camera (9MP, 4G)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "Intelligent solar PTZ camera with triple lens, 3-PTZ auto-rotate, True Color View, 9MP Ultra HD and 4G LTE. Built-in battery, auto tracking, audio with siren, and IP66 weatherproofing.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/zeevision-t33-9mp.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799990000
+  },
+  {
+    "id": "p-zeevision-t40-12mp",
+    "name": "ZeeVision T40 Four-Lens Solar PTZ Camera (12MP, 4G)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "Intelligent solar PTZ camera with four real lenses, True Color View, 12MP Ultra HD, 4G LTE and auto tracking. Wide coverage for shops, warehouses, farms and compounds.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/zeevision-t40-12mp.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799989000
+  },
+  {
+    "id": "p-viewconnect-p91-15mp",
+    "name": "ViewConnect P91 Four-Lens Solar PTZ Camera (15MP, 4G)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "Ultra HD low-power solar PTZ camera with four real lens screens, 15MP, 4G LTE and AOV 7/24-hour recording. Dual solar panels, 3-PTZ auto-rotate, True Color View and a built-in siren. Complete with brackets and accessories.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/viewconnect-p91-15mp.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799988000
+  },
+  {
+    "id": "p-felicity-lithium-battery",
+    "name": "Felicity Solar Floor-Standing Lithium Battery (on Wheels)",
+    "category": "Batteries & Inverters",
+    "price": "",
+    "description": "Felicity Solar floor-standing lithium energy storage battery on caster wheels, with LCD display, power switch and carry handle. Clean, quiet backup power for solar home and shop systems.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/felicity-lithium-battery.jpg",
+      "/uploads/images/felicity-lithium-battery-2.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799987000
+  },
+  {
+    "id": "p-felicity-hybrid-inverter",
+    "name": "Felicity Solar Wall-Mount Hybrid Inverter",
+    "category": "Batteries & Inverters",
+    "price": "",
+    "description": "Felicity Solar wall-mounted hybrid solar inverter with touch display and control buttons. Powers TVs, fans, lights, freezers and more. Contact us for the available power ratings.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/felicity-hybrid-inverter.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799986000
+  },
+  {
+    "id": "p-cworth-energy-battery",
+    "name": "Cworth Energy Solar Battery (Mobile Cabinet)",
+    "category": "Batteries & Inverters",
+    "price": "",
+    "description": "Cworth Energy solar battery in a neat cabinet with caster wheels and a round status display. Easy to move and install for home and office solar systems.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/cworth-energy-battery.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799985000
+  },
+  {
+    "id": "p-itel-wall-battery",
+    "name": "itel Wall-Mount Lithium Battery",
+    "category": "Batteries & Inverters",
+    "price": "",
+    "description": "Slim wall-mounted itel lithium battery with live percentage display. Saves floor space and gives reliable backup power for solar systems.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/itel-wall-battery.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799984000
+  },
+  {
+    "id": "p-sms-25v-5kwh-lithium",
+    "name": "SMS Sunmate 25.6V 5kWh Lithium Iron Battery",
+    "category": "Batteries & Inverters",
+    "price": "",
+    "description": "SMS Sunmate Solar 25.6V 5kWh+ lithium iron (LiFePO4) wall-mount battery with battery-level display and status light. Long life and deep-cycle performance for solar homes and shops.",
+    "featured": true,
+    "tags": "",
+    "images": [
+      "/uploads/images/sms-25v-5kwh-lithium.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795799983000
+  }
+]
