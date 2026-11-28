@@ -18,6 +18,7 @@ function renderProducts() {
     : (Number(!!b.featured) - Number(!!a.featured)) || ((b.createdAt || 0) - (a.createdAt || 0)));
   $('#emptyState').hidden = list.length > 0;
   $('#productGrid').innerHTML = list.map(cardHTML).join('');
+  if (!$('#priceNote')) $('#productGrid').insertAdjacentHTML('afterend', '<p class="price-note" id="priceNote">Prices are in Nigerian Naira and may change with the market. Message or call us to confirm availability and today’s price.</p>');
 }
 function renderVideos() {
   const withV = BJ.products.filter(p => productVideos(p).length);

@@ -136,7 +136,8 @@
     "featured": true,
     "tags": "",
     "images": [
-      "/uploads/images/big-jeff-8000w-street-light.jpg"
+      "/uploads/images/big-jeff-8000w-street-light.jpg",
+      "/uploads/images/big-jeff-8000w-box.jpg"
     ],
     "videos": [],
     "createdAt": 1795800000000
@@ -379,5 +380,145 @@
     ],
     "videos": [],
     "createdAt": 1795799983000
+  },
+  {
+    "id": "p-big-jeff-600w",
+    "name": "Big Jeff 600W Solar Street Light",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Big Jeff 600W solar street light with remote control, time switch, intelligent light control and human-body induction (motion sensor). IP67 weatherproof, and the box shows a 5-year warranty badge. Supplied with the remote and mounting accessories. Great for streets, estates, compounds and gates.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/big-jeff-600w.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795900000000
+  },
+  {
+    "id": "p-big-jeff-800w",
+    "name": "Big Jeff 800W Solar Street Light",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Big Jeff 800W solar street light with remote control, time switch, intelligent light control and human-body induction (motion sensor). IP67 weatherproof, and the box shows a 5-year warranty badge. Supplied with the remote and mounting accessories. Great for streets, estates, compounds and gates.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/big-jeff-800w.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795899999000
+  },
+  {
+    "id": "p-big-jeff-1000w",
+    "name": "Big Jeff 1000W Solar Street Light",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Big Jeff 1000W solar street light with remote control, time switch, intelligent light control and human-body induction (motion sensor). IP67 weatherproof, and the box shows a 5-year warranty badge. Supplied with the remote and mounting accessories. Great for streets, estates, compounds and gates.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/big-jeff-1000w.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795899998000
+  },
+  {
+    "id": "p-big-jeff-1500w",
+    "name": "Big Jeff 1500W Solar Street Light",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Big Jeff 1500W solar street light with remote control, time switch, intelligent light control and human-body induction (motion sensor). IP67 weatherproof, and the box shows a 5-year warranty badge. Supplied with the remote and mounting accessories. Great for streets, estates, compounds and gates.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/big-jeff-1500w.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795899997000
+  },
+  {
+    "id": "p-big-jeff-4000w",
+    "name": "Big Jeff 4000W Solar Street Light",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Big Jeff 4000W solar street light with remote control, time switch, intelligent light control and human-body induction (motion sensor). IP67 weatherproof, and the box shows a 5-year warranty badge. Supplied with the remote and mounting accessories. Great for streets, estates, compounds and gates.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/big-jeff-4000w.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795899996000
+  },
+  {
+    "id": "p-big-jeff-5000w",
+    "name": "Big Jeff 5000W Solar Street Light",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Big Jeff 5000W solar street light with remote control, time switch, intelligent light control and human-body induction (motion sensor). IP67 weatherproof, and the box shows a 5-year warranty badge. Supplied with the remote and mounting accessories. Great for streets, estates, compounds and gates.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/big-jeff-5000w.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795899995000
+  },
+  {
+    "id": "p-big-jeff-large-6-row",
+    "name": "Big Jeff Large Solar Street Light (6-Row Model)",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "High-power Big Jeff solar street light with a large multi-panel LED array, radar sensor with on/off switch, remote control and mounting screws. IP67 weatherproof, and the box shows a 5-year warranty badge. Message us on WhatsApp to confirm the wattage and today's price.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/big-jeff-large-6-row.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795899994000
+  },
+  {
+    "id": "p-solar-age-8000w",
+    "name": "Solar Age 8000W LED Solar Street Light (Radiant Mode)",
+    "category": "Solar Street Lights",
+    "price": "",
+    "description": "Solar Age LED solar street light, Radiant Mode, 8000W, with high-brightness SMD LED chips and a radar sensor. IP65 waterproof and energy saving. Comes with remote control, pole tube, bracket and screws.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/solar-age-8000w.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795899993000
+  },
+  {
+    "id": "p-sms-7-5kwh-lithium",
+    "name": "SMS Sunmate 25.6V 7.5kWh Lithium Iron Battery",
+    "category": "Batteries & Inverters",
+    "price": "",
+    "description": "SMS Sunmate Solar 25.6V 7.5kWh+ lithium iron (LiFePO4) battery on caster wheels, delivered in a protective wooden crate. Long life and deep-cycle power for solar homes, shops and offices.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/sms-7-5kwh-lithium.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1795899992000
+  },
+  {
+    "id": "p-zeevision-t30-12mp",
+    "name": "ZeeVision T30 Triple-Lens Solar PTZ Camera (12MP, 4G)",
+    "category": "CCTV Security",
+    "price": "",
+    "description": "Intelligent solar PTZ camera with triple lens, True Color View, 12MP Ultra HD and 4G LTE. Built-in battery, auto tracking, two-way audio and IP66 weatherproofing. Solar powered, so no extra power or cabling is needed.",
+    "featured": false,
+    "tags": "",
+    "images": [
+      "/uploads/images/zeevision-t30-12mp.jpg"
+    ],
+    "videos": [],
+    "createdAt": 1796000000000
   }
 ]

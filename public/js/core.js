@@ -139,6 +139,7 @@ document.addEventListener('click', e => {
 function injectUI() {
   document.body.insertAdjacentHTML('beforeend', `
   <button class="cart-pill" id="cartPill" hidden></button>
+  <div class="mbar"><a class="m-call" href="tel:08149439431">📞 Call to order</a><a class="m-wa" href="https://wa.me/2349025511941" target="_blank" rel="noopener">💬 WhatsApp</a></div>
   <div class="drawer" id="cartDrawer" aria-hidden="true"><div class="drawer-bg" data-dclose></div>
     <aside class="drawer-card"><div class="drawer-head"><h3>🛒 Your Cart</h3><button class="modal-close static" data-dclose aria-label="Close">✕</button></div>
       <div class="drawer-body" id="cartBody"></div>
@@ -171,6 +172,7 @@ function injectUI() {
     const hb = $('#hamburger'), nav = $('#nav');
     if (hb && nav) { hb.addEventListener('click', () => { nav.classList.toggle('open'); hb.classList.toggle('open'); }); $$('a', nav).forEach(a => a.addEventListener('click', () => { nav.classList.remove('open'); hb.classList.remove('open'); })); }
   }
+  const fbt = $('.footer-bottom .container'); if (fbt && !$('.to-top')) fbt.insertAdjacentHTML('beforeend', '<a class="to-top" href="#">↑ Back to top</a>');
   const y = $('#year'); if (y) y.textContent = new Date().getFullYear();
 }
 
@@ -190,6 +192,7 @@ function renderCart() {
     ${BJ.settings.bankAccount ? `<div class="bank-box"><b>🏦 Pay by bank transfer</b><div>${esc(BJ.settings.bankName || '')}</div><div class="bank-no"><span>${esc(BJ.settings.bankAccount)}</span><button type="button" id="coCopy">Copy</button></div><small>${esc(BJ.settings.bankAccountName || '')}</small><small>After paying, send your receipt screenshot on WhatsApp.</small></div>` : ''}
     <input id="coName" placeholder="Your name"><input id="coLoc" placeholder="Delivery location / state">
     <button class="btn btn-wa wide" id="coSend">💬 Send Order on WhatsApp</button>
+    ${BJ.settings.bankAccount ? `<a class="btn btn-blue wide" target="_blank" rel="noopener" href="${waLink('Hello ' + BRAND + ', I have made my payment. I am sending my receipt now.')}">🧾 Send payment receipt</a>` : ''}
     <button class="btn-link" id="coClear">Clear cart</button>`;
   $('#coName').value = localStorage.getItem('bj_name') || ''; $('#coLoc').value = localStorage.getItem('bj_loc') || '';
   const cp = $('#coCopy'); if (cp) cp.onclick = () => { (navigator.clipboard ? navigator.clipboard.writeText(BJ.settings.bankAccount) : Promise.reject()).then(() => toast('Account number copied ✅')).catch(() => toast(BJ.settings.bankAccount)); };
